@@ -1,10 +1,9 @@
-import React from 'react'
+import Navigation from '../components/Navigation'
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home page.</p>
+    <div className="container p-5">
+      <Navigation />
     </div>
   )
 }
